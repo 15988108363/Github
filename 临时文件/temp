@@ -1,0 +1,21 @@
+os.listdir()方法用于返回指定文件夹包含的文件或文件夹的名字的列表。这个列表以字母顺序，不包括‘.’和‘…’即使其在文件夹中。
+
+注意，返回的是目标文件夹中包含的文件或文件夹的名字，通常用于提取文件夹中文件，用一个循环遍历所有文件。
+
+path = ‘.............’ path是目标文件夹的路径
+
+for filename in os.listdir(path):
+
+.........
+
+注：如果目录下有中文，则需要转码处理。
+
+cPath = os.getcwd()
+
+uPath = unicode(cPath,‘utf-8’)
+
+for filename in os.listdir(uPath):
+
+.........
+
+References:

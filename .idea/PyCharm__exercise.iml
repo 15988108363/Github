@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/2020.07.03-包" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2020.07.03-包实践/My_Project" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2020.07.27-数据库实践/user_info_base" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.8 (PyCharm__exercise)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
